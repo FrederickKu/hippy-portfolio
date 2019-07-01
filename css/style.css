@@ -1,6 +1,92 @@
-/* 
+body {
+	background-image: url('../images/pattern1.png');
+}
 
-Style Hints: 
+.page {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #f0776e;
+	padding: 10px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+p {
+	font-style: italic;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+#sub-header{
+	font-family: 'Cookie', cursive;
+	font-size: 32px;
+}
+
+#orchids {
+	width: 100%;
+
+}
+
+main {
+	background-color: white;
+	margin-top: -2px;
+	padding: 25px 20px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: cursive,'Helvetica', sans-serif;
+	text-decoration: underline;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#main-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom:30px;
+}
+
+#photos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.image {
+	border: 5px solid grey;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	width: 100%;
+	background-color: #f0776e;
+	text-align: right;;
+	height: 30px;
+	padding-top:10px;
+}
+
+#footer-text {
+	font-size: 18px;
+	padding-right: 10px;
+	color: white;
+	font-weight: bold;
+}
+/*
+
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
